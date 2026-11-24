@@ -6,3 +6,5 @@ Repo for CART211
 
 [link to assignment 3](./Assessement3/index.html)
 
+[Link to wEBSITE](./CatharsisWebsite/index.html)
+
