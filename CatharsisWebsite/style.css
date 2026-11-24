@@ -1,0 +1,30 @@
+/* Blank template: just enough styling to get started.
+   Page order: index > about > resources > questionnaire > meditation
+   > products > fish > advice > warning > end */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  max-width: 720px;
+  margin: 40px auto;
+  padding: 0 20px;
+  color: #333;
+}
+
+h1 { margin-bottom: 10px; }
+
+a.next {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 18px;
+  border: 1px solid #333;
+  text-decoration: none;
+  color: #333;
+}
+
+.page-number { font-size: 0.8rem; color: #888; }
+
+/* Questionnaire: one question visible at a time (CSS only) */
+.step { display: none; }
+.step:target { display: block; }
+.steps:not(:has(:target)) #q1 { display: block; }

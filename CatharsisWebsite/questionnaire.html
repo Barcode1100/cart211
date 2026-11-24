@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Questionnaire</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <p class="page-number">Page 4 of 10</p>
+  <h1>Questionnaire</h1>
+
+  <!-- One question shows at a time. Each "Next" link points to the
+       id of the following step. Copy a <section> to add a question. -->
+  <div class="steps">
+
+    <section class="step" id="q1">
+      <p>Question 1</p>
+      <input type="text">
+      <br><a class="next" href="#q2">Next</a>
+    </section>
+
+    <section class="step" id="q2">
+      <p>Question 2</p>
+      <input type="text">
+      <br><a class="next" href="#q3">Next</a>
+    </section>
+
+    <section class="step" id="q3">
+      <p>Question 3</p>
+      <input type="text">
+      <br><a class="next" href="#done">Next</a>
+    </section>
+
+    <section class="step" id="done">
+      <p>Thank you.</p>
+      <a class="next" href="meditation.html">Continue</a>
+    </section>
+
+  </div>
+</body>
+</html>
